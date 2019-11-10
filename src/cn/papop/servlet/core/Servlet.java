@@ -1,4 +1,4 @@
-package cn.papop.servlet;
+package cn.papop.servlet.core;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,13 +7,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- *
- */
-@WebServlet(name = "HttpServletImpl")
-public class HttpServletImpl extends HttpServlet {
+//@WebServlet(name = "Servlet")
+public class Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

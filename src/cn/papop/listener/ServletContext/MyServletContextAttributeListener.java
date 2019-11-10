@@ -8,7 +8,6 @@ import javax.servlet.annotation.WebListener;
  * 接口:ServletContextAttributeListener作用:
  *      当一个ServletContext范围的属性被添加,删除或者替换时,该接口的方法将会被调用
  */
-@WebListener
 public class MyServletContextAttributeListener implements ServletContextAttributeListener {
     /**
      *

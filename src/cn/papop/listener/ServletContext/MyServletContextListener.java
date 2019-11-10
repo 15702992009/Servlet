@@ -13,7 +13,6 @@ import javax.servlet.annotation.WebListener;
 /**
  * 接口:ServletContextListener能对ServletContext的创建和销毁做出相应
  */
-@WebListener
 public class MyServletContextListener implements ServletContextListener {
     /**
      *

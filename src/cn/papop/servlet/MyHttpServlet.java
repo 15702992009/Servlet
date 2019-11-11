@@ -1,16 +1,15 @@
 package cn.papop.servlet;
 /**
- *  请求转发:getRequestDispatcher方法是ServletRequest接口的方法
- *  interface HttpServletRequest extends ServletRequest
+ * 请求转发:getRequestDispatcher方法是ServletRequest接口的方法
+ * interface HttpServletRequest extends ServletRequest
  *
- *   重定向方式下的两种参数表达方式的区别:
- *     1.  response.sendRedirect("jsp/1.jsp"); URL: http://localhost:8080/app12/jsp/1.jsp
- *      web项目下的相对路径:web下的jsp文件夹下的1.jsp文件
- *     2. response.sendRedirect("/jsp/1.jsp"); URL-> http://localhost:8080/jsp/1.jsp
- *      端口号下的相对路径
- *
- *
+ * 重定向方式下的两种参数表达方式的区别:
+ * 1.  response.sendRedirect("jsp/1.jsp"); URL: http://localhost:8080/app12/jsp/1.jsp
+ * web项目下的相对路径:web下的jsp文件夹下的1.jsp文件
+ * 2. response.sendRedirect("/jsp/1.jsp"); URL-> http://localhost:8080/jsp/1.jsp
+ * 端口号下的相对路径
  */
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
